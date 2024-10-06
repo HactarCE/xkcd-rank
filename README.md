@@ -17,3 +17,18 @@ Options:
   -h, --help        Print help
   -V, --version     Print version
 ```
+
+## Keybinds
+
+- <kbd>U</kbd> – U tier
+- <kbd>W</kbd> – S+ tier
+- <kbd>S</kbd> – S tier
+- <kbd>A</kbd> – A tier
+- <kbd>B</kbd> – B tier
+- <kbd>C</kbd> – C tier
+- <kbd>D</kbd> – D tier
+- <kbd>E</kbd> – E tier
+- <kbd>F</kbd> – F tier
+- <kbd>Ctrl</kbd>+<kbd>S</kbd> – save
+- <kbd>␣</kbd> – next comic
+- <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> – navigate by the summary in the bottom-right
