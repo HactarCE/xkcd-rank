@@ -65,15 +65,15 @@ const TIERS: &[Tier] = &[
     },
 ];
 
-/// Xkcd downloader and tier list
+/// xkcd downloader and tier list
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
-    /// Whether to download all comics instead of showing the UI.
+    /// Download all comics instead of showing the UI.
     #[arg(short, long)]
     download: bool,
 
-    /// Whether to redownload comics that we have already downloaded.
+    /// Redownload comics that we have already downloaded.
     #[arg(short, long)]
     redownload: bool,
 }
