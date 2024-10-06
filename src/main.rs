@@ -31,22 +31,22 @@ const TIERS: &[Tier] = &[
     Tier {
         title: "S",
         subtitle: "Superb",
-        color: egui::Color32::from_rgb(0x88, 0x22, 0x00),
+        color: egui::Color32::from_rgb(0x88, 0x22, 0x22),
     },
     Tier {
         title: "A",
         subtitle: "Very good",
-        color: egui::Color32::from_rgb(0x88, 0x44, 0x00),
+        color: egui::Color32::from_rgb(0x88, 0x66, 0x22),
     },
     Tier {
         title: "B",
         subtitle: "Good",
-        color: egui::Color32::from_rgb(0x88, 0x88, 0x00),
+        color: egui::Color32::from_rgb(0x99, 0x99, 0x00),
     },
     Tier {
         title: "C",
         subtitle: "Mediocre",
-        color: egui::Color32::from_rgb(0x22, 0x88, 0x22),
+        color: egui::Color32::from_rgb(0x33, 0x66, 0x33),
     },
     Tier {
         title: "D",
