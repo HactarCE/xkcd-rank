@@ -32,3 +32,4 @@ Options:
 - <kbd>Ctrl</kbd>+<kbd>S</kbd> – save
 - <kbd>␣</kbd> – next comic
 - <kbd>←</kbd><kbd>→</kbd><kbd>↑</kbd><kbd>↓</kbd> – navigate by the summary in the bottom-right
+- <kbd>N</kbd> <kbd>Tab</kbd> – input comic number

@@ -139,6 +139,9 @@ impl App {
                 if r.changed() {
                     self.reset_img_transform();
                 }
+                if ui.input(|input| input.key_pressed(egui::Key::N)) {
+                    r.request_focus();
+                }
             });
         });
     }
