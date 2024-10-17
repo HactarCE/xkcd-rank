@@ -131,6 +131,9 @@ impl Comic {
     }
 
     fn img_2x(&self) -> Option<String> {
+        const EARTH_TEMPERATURE_GRAPH_COMIC_NUMBER: usize = 1732; // too big for 2x resolution
+
         Some(self.img.strip_suffix(".png")?.to_owned() + "_2x.png")
+            .filter(|_| self.num != EARTH_TEMPERATURE_GRAPH_COMIC_NUMBER)
     }
 }
