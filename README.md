@@ -10,6 +10,8 @@ Application for downloading all xkcd comics and ranking them on a tier list
 
 ## Usage
 
+See [BUILDING.md](BUILDING.md) for build instructions.
+
 ```
 Usage: xkcd-rank [OPTIONS]
 
