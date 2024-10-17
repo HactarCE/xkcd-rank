@@ -47,9 +47,7 @@ impl Store {
     }
 
     pub fn ensure_tiers_exist(&mut self) {
-        if self.tier_assignments.len() <= self.comics.len() {
-            self.tier_assignments.resize(self.comics.len() + 1, 0);
-        }
+        self.tier_assignments.resize(self.comics.len(), 0);
     }
 
     pub fn get_tier_of_comic(&self, i: usize) -> u8 {
