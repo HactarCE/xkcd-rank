@@ -225,12 +225,19 @@ impl App {
                 |ui| ui.heading(&comic.title),
                 |ui| ui.heading(format!("#{}", comic.num)),
             );
+            ui.label(format!(
+                "{:0>4}-{:0>2}-{:0>2}",
+                comic.year, comic.month, comic.day
+            ));
+
+            ui.add_space(4.0);
 
             ui.with_layout(egui::Layout::bottom_up(egui::Align::LEFT), |ui| {
                 ui.group(|ui| {
                     ui.set_width(ui.available_width());
                     ui.label(&comic.alt);
                 });
+                ui.add_space(4.0);
                 egui::Frame::group(ui.style())
                     .inner_margin(1.0)
                     .show(ui, |ui| {
