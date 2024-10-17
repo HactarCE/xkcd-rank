@@ -4492,7 +4492,7 @@ dependencies = [
 
 [[package]]
 name = "xkcd-rank"
-version = "1.1.0"
+version = "1.1.1"
 dependencies = [
  "clap",
  "eframe",
