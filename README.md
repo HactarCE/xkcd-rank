@@ -2,6 +2,8 @@
 
 Application for downloading all xkcd comics and ranking them on a tier list
 
+![2024-10-16_xkcd_rank_thumbnail](https://github.com/user-attachments/assets/733db6d6-ca75-4d4f-80df-9cfdba12f022)
+
 ## Screenshot
 
 ![screenshot](https://github.com/user-attachments/assets/93fe0757-0539-48f5-a6b1-fda9a286bd6f)
