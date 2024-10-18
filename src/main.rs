@@ -424,7 +424,7 @@ impl eframe::App for App {
                     left: 25.0,
                     right: 25.0,
                     top: 25.0,
-                    bottom: 100.0,
+                    bottom: 150.0,
                 }),
             )
             .show(ctx, |ui| {
