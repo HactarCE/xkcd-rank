@@ -20,5 +20,5 @@ pub fn img_path(n: usize, ext: &str) -> PathBuf {
 }
 
 pub fn comics_json_path() -> PathBuf {
-    cache_dir().join("comics.json")
+    main_dir().join("comics.json")
 }
